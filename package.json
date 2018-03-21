@@ -1,0 +1,46 @@
+{
+  "name": "et-backend",
+  "version": "1.0.0",
+  "description": "expense tracker using mern stack - backend",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./app.js",
+    "dev": "nodemon ./app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/anishd19/et-backend.git"
+  },
+  "keywords": [
+    "mongodb",
+    "express",
+    "reactjs",
+    "nodejs"
+  ],
+  "author": "Anish Dhamodaran",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/anishd19/et-backend/issues"
+  },
+  "homepage": "https://gitlab.com/anishd19/et-backend#README",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "dotenv": "^5.0.1",
+    "errorhandler": "^1.5.0",
+    "express": "^4.16.3",
+    "express-jwt": "^5.3.1",
+    "express-session": "^1.15.6",
+    "jsonwebtoken": "^8.2.0",
+    "method-override": "^2.3.10",
+    "mongoose": "^5.0.10",
+    "mongoose-unique-validator": "^2.0.0",
+    "morgan": "^1.9.0",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.2"
+  }
+}
