@@ -34,6 +34,7 @@ if(isProduction){
 }
 
 require('./models/User');
+require('./models/Expense');
 require('./config/passport');
 
 app.use(require('./routes'));
